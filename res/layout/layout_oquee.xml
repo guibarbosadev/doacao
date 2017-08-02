@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp" >
+    <TextView 
+        android:id="@+id/txt_oquee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="O que é nº IMEI? "
+        android:textSize="15sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/txt_paragrafo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_oquee"
+        android:text="   O IMEI (International Mobile Equipment Identity) significa, em português, Identificação Internacional de Equipamento Móvel. Ele é um número de identificação global de cada aparelho. Ele é único para cada telefone. Falando tecnicamente, se trata de um código USSD pré-gravado no terminal, ou seja, um serviço para o envio de dados através de dispositivos móveis, similar ao SMS. A diferença entre o SMS e o USSD é que o SMS incorpora conteúdo intermediário, a mensagem de texto, já o USSD é um conteúdo que se transmite diretamente do emissor para o receptor. O USSD é composto por cifras que identificam o fabricante e o número de série do aparelho."
+        android:textSize="11sp"
+        android:fontFamily="sans-serif" />
+    <TextView 
+        android:id="@+id/txt_encontralo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_paragrafo1"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Como encontrá-lo ? "
+        android:textSize="15sp"
+        android:textStyle="bold" />
+    <TextView 
+        android:id="@+id/txt_paragrafo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_encontralo"
+        android:text="Passo 1. Abra o discador de seu telefone.\nPasso 2. Digite o seguinte código no teclado: *#06#."
+        android:textSize="11sp"
+        android:fontFamily="sans-serif"/>
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="185dp"
+        android:layout_height="225dp"
+        android:layout_below="@+id/txt_paragrafo2"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ic_img2" />
+
+    <TextView
+        android:id="@+id/txt_referencias"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img2"
+        android:text="Referências: http://www.guiadopc.com.br/artigos/36364/imei-e-serve.html\nhttp://pt.wikihow.com/Descobrir-o-N%C3%BAmero-IMEI-de-um-Celular\nhttp://www.techtudo.com.br/noticias/noticia/2014/05/aprenda-descobrir-o-codigo-imei-do-celular.html\n"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        android:fontFamily="sans-serif" />
+</RelativeLayout>
+</ScrollView>

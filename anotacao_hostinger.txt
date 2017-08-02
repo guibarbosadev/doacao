@@ -1,0 +1,8 @@
+projeto doação etec
+endereco
+doacaoetec.hol.es
+Hostinger BD
+BD - u129943523_detec
+USER - u129943523_detec
+HOST - mysql.hostinger.com.br
+PASSWORD - 123456	

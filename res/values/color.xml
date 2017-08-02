@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <item name="blue_normal" type="color">#59c4f2</item>
+        <item name="blue_clicked" type="color">#6b93f9</item>
+</resources>
